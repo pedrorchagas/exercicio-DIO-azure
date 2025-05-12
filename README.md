@@ -18,4 +18,4 @@ O projeto consiste em uma homepage protótipo de um menu digital para uma pizzar
 - **Azure**: Plataforma de nuvem para hospedagem e serviços.
 
 # Video
-[![Demonstração em Vídeo](https://img.youtube.com/vi/-e2Ja5YDNWU/maxresdefault.jpg)](https://youtu.be/-e2Ja5YDNWU "Clique para assistir no YouTube")
+[![Demonstração em Vídeo]](https://youtu.be/-e2Ja5YDNWU "Clique para assistir no YouTube")
