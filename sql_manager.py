@@ -4,11 +4,6 @@ import os
 
 load_dotenv()
 
-SERVER = os.getenv("DATABASE_HOST")
-
-
-
-
 def open_connection():
     database = pymssql.connect(server=SERVER, user=os.getenv("DATABASE_USERNAME"), password=os.getenv("DATABASE_PASSWORD"), database=os.getenv("DATABASE_DB"))
     return database
