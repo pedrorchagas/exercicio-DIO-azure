@@ -4,8 +4,9 @@ import os
 
 load_dotenv()
 
+
 def open_connection():
-    database = pymssql.connect(server=SERVER, user=os.getenv("DATABASE_USERNAME"), password=os.getenv("DATABASE_PASSWORD"), database=os.getenv("DATABASE_DB"))
+    database = pymssql.connect(server=os.getenv("DATABASE_HOST"), user=os.getenv("DATABASE_USERNAME"), password=os.getenv("DATABASE_PASSWORD"), database=os.getenv("DATABASE_DB"))
     return database
 
 def insert_product(product_name, product_image_link, product_ingredients, product_slices):
